@@ -1,22 +1,21 @@
 1. Make sure you've done this
 
-    __pip install pipenv__
+    **pip install pipenv**
 
 2. Install development dependencies
 
-    __pipenv install --dev__
+    **pipenv install --dev**
 
 3. Create virtual environment
 
     __python -m venv env__
 
-4. import __package_main.main__ + the function you want to test into ___tests.py__ (package/tests/_test.py) 
+4. import **package_main.main** + the function you want to test into **_tests.py** (package/tests/_test.py) 
 
 5. Run tests on code
 
-    __pipenv run pytest__
+    **pipenv run pytest**
 
+I don't know if we need to include a **setup.py** file but some packages do
 
-I don't know if we need to include a __setup.py__ file but some packages do
-
-__main.py__ is just an example function I put to get a sense of things 
+**main.py** is just an example function I put to get a sense of things 
