@@ -4,7 +4,6 @@ def example_function():
     x = 10
     for i in range(10000):
         x += i
-        print(x)
 
 @AllRuntime
 def main():
