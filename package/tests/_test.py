@@ -1,5 +1,18 @@
-from package_main.main import say_hello
+from package_main.main import *
 
-def test_say_hello():
-    assert say_hello("Alex") == "Hello, Alex!"
-    assert say_hello("") == "Hello, !"
+@tracker_print
+def example_function():
+    for i in range(1000):
+        print("a")
+
+@tracker
+def test_example_function():
+    result = example_function()
+
+def test_printAll():
+    print_all_runtimes()
+    entire_runtime()
+
+def test_printAll2():
+    save_to_file("alex.txt")
+    entire_runtime()

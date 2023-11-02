@@ -1,0 +1,2 @@
+example_function: 1.1351 milliseconds
+test_example_function: 1.1458 milliseconds
