@@ -1,2 +1,4 @@
-example_function: 1.1351 milliseconds
-test_example_function: 1.1458 milliseconds
+example_function: 12.2638 milliseconds
+example_function2: 22.2411 milliseconds
+example_function3: 23.7579 milliseconds
+test_example_function: 58.3420 milliseconds
