@@ -1,0 +1,11 @@
+example_function: 0.2282 milliseconds
+example_function2: 0.5996 milliseconds
+example_function3: 0.7350 milliseconds
+test_example_function: 1.8349 milliseconds
+test_printAll: 0.1230 milliseconds
+test_printAll2: 0.4950 milliseconds
+test_printall3: 0.9091 milliseconds
+test_printall4: 0.2351 milliseconds
+test_saveTo1: 0.5200 milliseconds
+test_saveTo2: 0.2811 milliseconds
+test_saveTo3: 0.3421 milliseconds
