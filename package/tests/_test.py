@@ -99,6 +99,5 @@ def test_trackerprint2():
 @tracker
 def test_trackerprint2():
     #testing it with file saving functions
-    print("HERE")
     print_fancy_runtime(500)
     print("\n-------------------------------------------------------------------------------------------------\n")
