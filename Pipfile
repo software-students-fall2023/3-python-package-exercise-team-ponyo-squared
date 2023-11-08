@@ -9,6 +9,8 @@ colorama = "*"
 [dev-packages]
 flake8 = "*"
 pytest = ">=6.0"
+build = "*"
+twine = "*"
 
 [requires]
 python_version = "3"
