@@ -21,6 +21,11 @@ def test_example_function():
     result2 = example_function2()
     result3 = example_function3()
 
+##################################################################
+############################Tests#################################
+##################################################################
+
+
 @tracker
 def test_printAll():
     print_all_runtimes()
@@ -88,15 +93,30 @@ def test_trackerprint3():
     print_all_runtimes()
     print("\n-------------------------------------------------------------------------------------------------\n")
 @tracker
-def test_trackerprint2():
+def test_trackerprint4():
     #testing it with file saving functions
     save_to_file("test_trackerprint.txt")
     tracker_print(example_function())
     print("\n-------------------------------------------------------------------------------------------------\n")
 
 @tracker
-def test_trackerprint2():
+def test_entireRuntime1():
     #testing it with file saving functions
-    print("HERE")
-    print_fancy_runtime(500)
+    entire_runtime()
     print("\n-------------------------------------------------------------------------------------------------\n")
+
+@tracker
+def test_entireRuntime2():
+    save_to_file("test_entireRuntime.txt")
+    entire_runtime()
+    print("\n-------------------------------------------------------------------------------------------------\n")
+
+@tracker
+def test_entireRuntime3():
+    entire_runtime()
+    tracker_print(example_function())
+
+@tracker
+def test_entireRuntime4():
+    entire_runtime()
+    print_fancy_runtime(500)
