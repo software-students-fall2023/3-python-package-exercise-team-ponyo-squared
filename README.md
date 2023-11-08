@@ -1,3 +1,4 @@
+![Your custom badge name](https://github.com/software-students-fall2023/3-python-package-exercise-team-ponyo-squared/actions/workflows/build.yml/badge.svg)
 # Runtime Ponyo
 `alexh212`- Alex Hmitti
 
