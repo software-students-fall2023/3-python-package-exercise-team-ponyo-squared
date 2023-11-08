@@ -25,6 +25,7 @@ jobs:
               pipenv --python ${{ matrix.python-version }}
               pipenv install colorama
               pipenv install pytest
+              pipenv install
 
           - name: Turn on 'editable' mode
             run: |
@@ -47,6 +48,7 @@ jobs:
           pip install --user pipenv
           pipenv install colorama
           pipenv install pytest
+          pipenv install
 
       - name: Build package
         run: |
