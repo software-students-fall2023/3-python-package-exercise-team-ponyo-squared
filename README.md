@@ -1,8 +1,12 @@
 # Runtime Ponyo
 `alexh212`- Alex Hmitti
+
 `as13909` - Aaron Stein 
+
 `Rafinator123` - Rafael Nadal-Scala
+
 `jk021227` - Jhon Kim 
+
 ##
 
 Times the execution of functions while providing users to save and display recorded runtimes.
