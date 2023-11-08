@@ -78,7 +78,6 @@ def save_to_file(file_name):
 def entire_runtime():
         end_time = time.time()
         elapsed_time = end_time - start_time
-        print("hehe")
         cat = r'''
  /\_/\  
 ( o.o ) 
