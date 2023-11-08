@@ -86,4 +86,3 @@ def entire_runtime():
         print(cat, end='') 
 
         print_fancy_runtime(elapsed_time)
-        # print(f"Total runtime for the entire program: {elapsed_time * 1000:.4f} miliseconds meow!") 
