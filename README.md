@@ -1,6 +1,9 @@
 
 ### Runtime Ponyo
-Times the execution of functions while providing users to save and display recorded runtimes
+Times the execution of functions while providing users to save and display recorded runtimes.
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Fqreeyyg5w7Bh8V2gMvsLK/J5WJeCyRRYn9i1nuHuLvp7/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/Fqreeyyg5w7Bh8V2gMvsLK/J5WJeCyRRYn9i1nuHuLvp7/tree/main)
+
 
 ### Installation 
 
@@ -25,3 +28,7 @@ This function saves the recorded runtimes to a specified file. If the file doesn
 
 `'entire_runtime()'`
 Calculates and prints the total runtime of the entire program.
+
+
+
+A little exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
