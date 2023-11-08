@@ -1,4 +1,4 @@
-[![Python Package CI/CD](https://github.com/software-students-fall2023/3-python-package-exercise-team-ponyo-squared/actions/workflows/build.yaml/badge.svg)](https://github.com/software-students-fall2023/3-python-package-exercise-team-ponyo-squared/actions/workflows/build.yaml)
+[![Continuous Integration](https://github.com/software-students-fall2023/3-python-package-exercise-team-ponyo-squared/actions/workflows/build.yaml/badge.svg)](https://github.com/software-students-fall2023/3-python-package-exercise-team-ponyo-squared/actions/workflows/build.yaml)
 # Runtime Ponyo
 `alexh212`- Alex Hmitti
 
