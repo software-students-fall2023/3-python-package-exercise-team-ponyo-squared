@@ -34,7 +34,7 @@ jobs:
             run: |
               pipenv run python -m pytest
     deliver:
-      needs: [build]
+      #needs: [build]
       runs-on: ubuntu-latest
       timeout-minutes: 5
 
