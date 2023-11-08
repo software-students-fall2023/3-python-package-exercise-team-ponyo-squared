@@ -8,7 +8,7 @@ colorama = "*"
 
 [dev-packages]
 flake8 = "*"
-pytest = "*"
+pytest = ">=6.0"
 build = "*"
 twine = "*"
 
