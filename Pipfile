@@ -4,10 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-pytest = "*"
-main = {editable = true, path = "."}
+colorama = "*"
 
 [dev-packages]
+flake8 = "*"
+pytest = "*"
 
 [requires]
 python_version = "3"
