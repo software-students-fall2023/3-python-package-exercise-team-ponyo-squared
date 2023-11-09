@@ -57,7 +57,6 @@ def save_to_file(file_name):
     with open(file_name, 'w') as file:
         for function_name, runtime in function_runtimes.items():
             file.write(f"{function_name}: {runtime * 1000:.4f} milliseconds\n")
-            #file.write(f"{function_name}: {runtime:.2f} seconds\n") # Write function names and runtimes to a file
 
 def entire_runtime():
         end_time = time.time()
