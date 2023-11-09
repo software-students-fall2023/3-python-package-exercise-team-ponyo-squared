@@ -13,11 +13,7 @@ def print_fancy_runtime(elapsed_time):
     print(Fore.WHITE + "==========================================================" + Fore.RESET)
     print("\n")
 
-
-# Dictionary to store function runtimes
-function_runtimes = {}
-
-
+function_runtimes = {} # dictornary to store the runtimes 
 start_time = time.time()
 
 def tracker(func):
