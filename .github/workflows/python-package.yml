@@ -57,7 +57,7 @@ jobs:
       run: |
         pipenv run python -m build .
     - name: Publish to PyPI
-      run: twine upload dist/*
+      run: pipenv run twine upload dist/*
       env:
         TWINE_USERNAME: __token__
         TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
