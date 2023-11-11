@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3712ba02465c9812cbfa1b6ece6bc1eac2b97c14e8e61aac5e76ebd4126f9117"
+            "sha256": "3edeb6419f9635b578df0810a26a123e63def37c754841d61e7fbad567084451"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -147,6 +147,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==0.20.1"
+        },
+        "exceptiongroup": {
+            "hashes": [
+                "sha256:097acd85d473d75af5bb98e41b61ff7fe35efe6675e4f9370ec6ec5126d160e9",
+                "sha256:343280667a4585d195ca1cf9cef84a4e178c4b6cf2274caef9859782b567d5e3"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==1.1.3"
         },
         "flake8": {
             "hashes": [
@@ -355,6 +364,15 @@
             "markers": "python_full_version >= '3.7.0'",
             "version": "==13.6.0"
         },
+        "setuptools": {
+            "hashes": [
+                "sha256:4ac1475276d2f1c48684874089fefcd83bd7162ddaafb81fac866ba0db282a87",
+                "sha256:b454a35605876da60632df1a60f736524eb73cc47bbc9f3f1ef1b644de74fd2a"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==68.2.2"
+        },
         "twine": {
             "hashes": [
                 "sha256:929bc3c280033347a00f847236564d1c52a3e61b1ac2516c97c48f3ceab756d8",
@@ -371,6 +389,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.0.7"
+        },
+        "wheel": {
+            "hashes": [
+                "sha256:488609bc63a29322326e05560731bf7bfea8e48ad646e1f5e40d366607de0942",
+                "sha256:4d4987ce51a49370ea65c0bfd2234e8ce80a12780820d9dc462597a6e60d0841"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==0.41.3"
         },
         "zipp": {
             "hashes": [
