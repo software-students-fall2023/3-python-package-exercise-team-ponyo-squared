@@ -15,16 +15,19 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"] #build your package and run your tests on two different recent versions of Python
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.10
+    - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
-        python-version: "3.10"
+        python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pipenv
+        pip install pipenv #
         pipenv install --dev 
     - name: Lint with flake8
       run: |
@@ -41,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.10
+    - name: Set up Python 3.10 #test w/ 2 recent ver. of python but publish with only 1
       uses: actions/setup-python@v3
       with:
         python-version: '3.10'

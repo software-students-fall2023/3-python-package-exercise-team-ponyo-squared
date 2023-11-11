@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="runtimeponyo",
-    version="0.0.3",
+    version="0.0.4",
     description="A package that allows the user to record and print out neatly the runtime of functions and also the entire program.",
     author="Aaron Stein, Alex Hmitti, Rafael Nadal-Scala, Jhon Kim",
     license="GPLv3",
