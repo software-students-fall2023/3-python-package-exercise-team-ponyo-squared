@@ -7,13 +7,15 @@ verify_ssl = true
 colorama = "*"
 
 [dev-packages]
-setuptools = "*"
-wheel = "*"
 flake8 = "*"
 pytest = ">=6.0"
 build = "*"
 twine = "*"
 exceptiongroup = "*"
+tomli = "*"
+setuptools = "*"
+wheel = "*"
+
 
 [requires]
 python_version = "3"
