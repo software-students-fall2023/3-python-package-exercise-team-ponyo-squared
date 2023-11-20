@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+colorama = "*"
+
+[dev-packages]
+flake8 = "*"
+pytest = ">=6.0"
+build = "*"
+twine = "*"
+exceptiongroup = "*"
+tomli = "*"
+setuptools = "*"
+wheel = "*"
+
+
+[requires]
+python_version = "3"

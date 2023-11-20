@@ -8,6 +8,12 @@
 # emacs backups
 *~
 
+# Ignore testing files
+package/tests/test_entireRuntime.txt
+package/tests/test_printAll.txt
+package/tests/test_saveTo.txt
+package/tests/test_trackerprint.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
